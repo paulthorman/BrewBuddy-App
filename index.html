@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>BrewBuddy</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script src="https://use.fontawesome.com/8a1003442a.js"></script>
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+
+		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+		<script type="text/javascript" src="js/camera.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script src="js/sorting.js" type="text/javascript"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
+		<!-- Jesus code -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfCZjScic2DsJWrhd2Nb-44aG3zDDTmfc&libraries=places&callback=initAutocomplete"
+         async defer></script>
+    	<script src="app.js"></script>
+    	<link rel="stylesheet" href="app.css">
+		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+		
+
+		<script>
+			jQuery(function(){
+					jQuery('#camera_wrap_1').camera({
+					transPeriod: 500,
+					time: 3000,
+					height: '490px',
+					thumbnails: false,
+					pagination: true,
+					playPause: false,
+					loader: false,
+					navigation: false,
+					hover: false
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
+    
+    <!--home start-->
+    
+    <div id="home">
+    	<div class="headerLine">
+	<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					<div>
+						<a href="#">
+							<img src="images/logo.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu" style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#project">Virtual Taproom</a></li>
+							<li><a href="#news">Beer News</a></li>
+							<li class="last"><a href="#contact">Find Beer!</a></li>
+							<!--li><a href="#features">Features</a></li-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="col-md-12 gallery"> 
+						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Brews</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>&amp;</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>Buddies</h2>
+								</div>
+							</div>
+						</div><!-- #camera_wrap_1 -->
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 project">
+					<h3 id="counter">0</h3>
+					<h4>Number of breweries in San Diego</h4>
+					<p>San Diego is the Napa of Craft Beer. The scene has skyrocketed in the last few years and is still growing. </p>
+				</div>
+				<div class="col-md-6 project">
+					<h3 id="counter1">0</h3>
+					<h4>Beer sales ($m) annually in San Diego County</h4>
+					<p>The region has internationally recongnised beer. Ballast Point, Stone Brewing, Pizza Port, Karl Strauss and AleSmith, to name a few, have all gained national and, sometimes, international acclaim. </p>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <!--about start-->    
+    
+    <div id="about">
+    	<div class="line2">
+			<div class="container">
+				<div class="row Fresh">
+					<div class="col-md-4 Des">
+						<i style="font-size:32px" class="fa fa-beer"></i>
+						<h4>Virtual Taproom</h4>
+						<p>Share, review and rate your favorite brews! </p>
+					</div>
+					<div class="col-md-4 Ver">
+						<i style="font-size:32px" class="fa fa-map-marker"></i>
+						<h4>Brewery Finder</h4>
+						<p>Locate where you can enjoy your favorite porter, stout, IPA or pale ale! </p>
+					</div>
+					<div class="col-md-4 Fully">
+						<i style="font-size:32px" class="fa fa-newspaper-o"></i>
+						<h4>Beer Related News</h4>
+						<p>Find out the latest news and reviews within the craft beer! </p>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 wwa">
+					<span name="about" ></span>
+					<h3>Who Are We?</h3>
+					<h4>Here are our favorite beers, tell us about yours in the Virtual Tap Room!</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/picT1.png">
+						<h4>Tori Smith</h4>
+						<h5>BeerBuddy</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				</div>
+			
+			
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/picT2.png">
+						<h4>Evan Campbell</h4>
+						<h5>BeerBuddy</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				</div>
+		
+			
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/picT3.png">
+						<h4>Ryan Howard</h4>
+						<h5>BeerBuddy</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				</div>
+
+
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/picT3.png">
+						<h4>Jesus Morquecho</h4>
+						<h5>BeerBuddy</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				</div>
+
+
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/picT3.png">
+						<h4>Alfredo Patron</h4>
+						<h5>BeerBuddy</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				</div>
+
+
+				<div class="col-md-2 b3">
+						<img class="img-responsive" src="images/picTeam/paul.png">
+						<h4>Paul Thorman</h4>
+						<h5>BeerBuddy</h5>
+						<p>I enjoy a Ballast Point Grapefuit Sculpin. THe citrussy tartness is perfect for hot San Diego days.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hr1">
+					<hr/>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+    </div>
+    <!--taproom start-->    
+    <div id="project">    	
+		<div class="line3">
+			<div class="container">
+				<div id="project1" ></div>
+				<div class="row Ama">
+					<div class="col-md-12">
+					<span name="projects" id="projectss"></span>
+					<h3>Virtual Taproom</h3>
+					<p>Here is where you can review, rate and chat all things craft beer!</p>
+					</div>
+				</div>
+			</div>
+		</div>          
+    
+    
+       <div class="container">
+		
+		<!-- Virtual tap room div -->		
+		
+			
+		</div>
+    </div>    
+    
+    <!--news start-->
+    
+    <div id="news">
+    	<div class="line4">		
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Brew News!</h3>
+					<p>The latest brew news on booze!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+			<div class="container">
+			<div>
+					<!-- news goes here -->
+					Check out the latest in beer news: 
+
+					<!-- <div class="headline"></div>
+					<div class="content"></div> -->
+
+					<div id="article-well-1"></div>
+					<div id="article-well-2"></div>
+					<div id="article-well-3"></div>
+					<div id="article-well-4"></div>
+					<div id="article-well-5"></div>
+					<div id="article-well-6"></div>
+					<div id="article-well-7"></div>
+					<div id="article-well-8"></div>
+					<div id="article-well-9"></div>
+					<div id="article-well-10"></div>
+
+					</div>
+
+
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+					<script src="community.js"></script>
+		</div>
+    </div>
+    
+    
+    <!--brewfinder start-->
+    
+    <div id="contact">
+    	<div class="line5">					
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Looking For Brews?</h3>
+					<p>Check out our interactive brewfinder!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line6">
+		 	<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+
+   			<div id="map"></div>
+					
+		</div>
+		<div class="container">
+			<div class="row ftext">
+				<div class="col-md-12">
+				<a id="features"></a>
+				<h3>Lorem Ipsum!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quos dignissimos quisquam quaerat similique totam asperiores ipsa sunt incidunt eos dicta ullam aut, officia omnis dolorum veniam ducimus. Eius, optio? </p>
+				</div>
+			</div>
+		</div>
+		<div class="line7">
+			<div class="container">
+				<div class="row footer">
+					<div class="col-md-12">
+						<h3>Subscribe to the BrewBuddies Newsletter!</h3>
+						<p>Subscribe to our newsletter email to get notification about all things beer! News, latest promos, giveaways and free stuff from BrewBuddies!</p>
+						<div class="fr">
+						<div style="display: inline-block;">
+							<input class="col-md-6 fEmail" name='Email' placeholder='Enter Your Email'/>
+							<a href="#" class="subS">Subscribe!</a>
+						</div>
+						</div>
+					</div>
+					<div class="soc col-md-12">
+						<ul>
+							<li class="soc1"><a href="#"></a></li>
+							<li class="soc2"><a href="#"></a></li>
+							<li class="soc3"><a href="#"></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lineBlack">
+			<div class="container">
+				<div class="row downLine">
+					<div class="col-md-6 text-left copy">
+						<p>Copyright &copy; 2017 Paul Thorman, Jesus Morquecho, Tori Smith, Ryan Howard, Evan Campbell, Alfredo Patron.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>		
+		
+		
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script>
+			$(document).ready(function(){
+			$(".bhide").click(function(){
+				$(".hideObj").slideDown();
+				$(this).hide(); //.attr()
+				return false;
+			});
+			$(".bhide2").click(function(){
+				$(".container.hideObj2").slideDown();
+				$(this).hide(); // .attr()
+				return false;
+			});
+				
+			$('.heart').mouseover(function(){
+					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+				}).mouseout(function(){
+					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+				});
+				
+				function sdf_FTS(_number,_decimal,_separator)
+				{
+				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+				var separator=(typeof(_separator)!='undefined')?_separator:'';
+				var r=parseFloat(_number)
+				var exp10=Math.pow(10,decimal);
+				r=Math.round(r*exp10)/exp10;
+				rr=Number(r).toFixed(decimal).toString().split('.');
+				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+				r=(rr[1]?b+'.'+rr[1]:b);
+
+				return r;
+}
+				
+			setTimeout(function(){
+					$('#counter').text('0');
+					$('#counter1').text('0');
+					$('#counter2').text('0');
+					setInterval(function(){
+						
+						var curval=parseInt($('#counter').text());
+						var curval1=parseInt($('#counter1').text().replace(' ',''));
+						var curval2=parseInt($('#counter2').text());
+						if(curval<=219){
+							$('#counter').text(curval+1);
+						}
+						if(curval1<=851){
+							$('#counter1').text(sdf_FTS((curval1+1),0,' '));
+						}
+						if(curval2<=245){
+							$('#counter2').text(curval2+1);
+						}
+					}, 2);
+					
+				}, 500);
+			});
+	</script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#menu').slicknav();
+		
+	});
+	</script>
+	
+	<script type="text/javascript">
+    $(document).ready(function(){
+       
+        var $menu = $("#menuF");
+            
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });
+	});
+    //jQuery
+	</script>
+	<script>
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( $(this).attr('href') ).offset().top );
+				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');				
+				}
+			})
+		};
+		
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});		
+	</script>	
+	<script type="text/javascript" charset="utf-8">
+
+		jQuery(document).ready(function(){
+			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+			
+		});
+	</script>
+	<script>
+	var numArticles = 10;
+	var articleCounter = 0;
+	var apiKey = "dc77f01a936649d78e1c97752a9c16ec";
+
+	var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + apiKey + "&q=Brewery";
+
+
+	function runQuery(numArticles, url){
+
+		$.ajax({
+		  url: url,
+		  method: "GET",
+		}).done(function(NYTData) {
+
+			  console.log(url);
+			  console.log(NYTData);
+
+			for (var i = 0; i < numArticles; i++) {
+				articleCounter++;
+				// creating the div for the article
+				var articleSection = $("<div>");
+				articleSection.addClass("holder");
+				articleSection.attr("id", "article-holder-" + articleCounter);
+				$(".content").append(articleSection);
+			
+				// if article has a headline, include it
+				if (NYTData.response.docs[i].headline !== "null") {
+					$("#article-well-" + articleCounter)
+					.append("<h3 class='articleHeadline'><span class='label label-primary'>" +
+	            	articleCounter + "</span><strong> " +
+	            	NYTData.response.docs[i].headline.main + "</strong></h3>");
+
+	            	console.log(NYTData.response.docs[i].headline.main);
+	   			}
+
+	   			if (NYTData.response.docs[i].byline && NYTData.response.docs[i].byline.original) {
+	        	$("#article-well-" + articleCounter)
+	          	.append("<h5>" + NYTData.response.docs[i].byline.original + "</h5>");	
+	   			}
+
+	   			// $("#article-well-" + articleCounter)
+		     //    .append("<h5>Section: " + NYTData.response.docs[i].section_name + "</h5>");
+		      	$("#article-well-" + articleCounter)
+		        .append("<h5>Publishing Date: " + NYTData.response.docs[i].pub_date + "</h5>");
+		      	$("#article-well-" + articleCounter)
+		        .append(
+		          "<a href='" + NYTData.response.docs[i].web_url + "'>" +
+		          NYTData.response.docs[i].web_url + "</a>"
+		        );
+
+		        console.log(NYTData.response.docs[i].pub_date);
+	      		console.log(NYTData.response.docs[i].section_name);
+	      		console.log(NYTData.response.docs[i].web_url);
+	   		}
+		});
+	}
+		
+		
+	runQuery(numArticles, url);
+
+
+	 // response.docs[0].headline.main
+	 // console.log(response.docs[0].headline.main);
+	 </script>
+	</body>
+	
+</html>
