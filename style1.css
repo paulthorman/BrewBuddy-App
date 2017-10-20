@@ -71,6 +71,22 @@ div#brewButtons1 {
     background-repeat: no-repeat;
 }
 
+aside {
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	font: arial;
+	color: coral;
+	top: 50px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	background-color: rgba(0,0,0,0.75);
+}
+
+
+
 .display {
 	margin-left: 50px;
 }
